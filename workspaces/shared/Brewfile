@@ -1,0 +1,59 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+
+# Official Amazon AWS command-line interface
+brew "awscli"
+
+# A modern version of 'ls'
+brew "exa"
+
+# Distributed revision control system
+brew "git"
+
+# Extensions to follow Vincent Driessen's branching model
+brew "git-flow"
+
+# Text-based UI library
+brew "ncurses"
+
+# Terminal interface for viewing git repositories
+brew "grv"
+
+# Mac App Store command-line interface
+brew "mas"
+
+# Manage multiple Node.js versions
+brew "nvm"
+
+# Python version management
+brew "pyenv"
+
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
+
+# Very fast implementation of tldr in Rust
+brew "tealdeer"
+
+# UNIX shell (command interpreter)
+brew "zsh"
+
+cask "1password"
+cask "aerial"
+cask "drawio"
+cask "firefox-developer-edition"
+cask "font-hack-nerd-font"
+cask "hyper"
+cask "visual-studio-code"
+cask "whatsapp"
+
+mas "AdGuard for Safari", id: 1440147259
+mas "AutoMute", id: 1118136179
+mas "Magnet", id: 441258766
+mas "NordVPN IKE - Unlimited VPN", id:1116599239
+mas "Pastebot", id: 1179623856
+mas "PiPifier", id: 1160374471
+mas "WireGuard", id: 1451685025
+mas "Xcode", id: 497799835
