@@ -1,0 +1,85 @@
+# In general, I prefer to keep things as close to the defaults as possible, but
+# these are some exceptions.
+
+NSGlobalDomain:
+  # System Preferences > Keyboard > Shortcuts > Full Keyboard Access > All
+  # controls.
+  AppleKeyboardUIMode: 3
+
+  # Disable press and hold character picker.
+  ApplePressAndHoldEnabled: true
+
+  # System Preferences > Keyboard > Key Repeat.
+  KeyRepeat: 1
+
+  # System Preferences > Keyboard > Delay Until Repeat.
+  InitialKeyRepeat: 15
+
+  # Disable smooth scrolling
+  NSScrollAnimationEnabled: true
+
+  # Expand Save dialog by default
+  NSNavPanelExpandedStateForSaveMode: true
+  NSNavPanelExpandedStateForSaveMode2: true
+
+  # Set bottom right corner as right click
+  com.apple.trackpad.trackpadCornerClickBehavior: 1
+  com.apple.trackpad.enableSecondaryClick: true
+
+  # Set Dark mode
+  AppleInterfaceStyle: Dark
+
+  # Set languages
+  AppleLanguages: ("en-NL", "nl-NL")
+  
+
+
+com.apple.driver.AppleBluetoothMultitouch.trackpad:
+  # Set bottom right corner as right click
+  TrackpadCornerSecondaryClick: 2
+  TrackpadRightClick: true
+
+
+com.apple.desktopservices:
+  # Disable .DS_Store files on network drives.
+  DSDontWriteNetworkStores: true
+
+  # Disable .DS_Store files on external drives.
+  DSDontWriteUSBStores: true
+
+com.apple.finder:
+
+  # Finder > Preferences > Advanced > When performing a search > Search the
+  # current folder.
+  FXDefaultSearchScope: SCcf
+
+  # Finder > View > Show view options > Group By > None.
+  FXPreferredGroupBy: None
+
+  # Finder > View > As List.
+  FXPreferredViewStyle: Nlsv
+
+  # Finder > Preferences > New Finder windows show > Home directory.
+  NewWindowTarget: PfHm
+
+  # Finder > Preferences > New Finder windows show > Home directory.
+  NewWindowTargetPath: "file://${HOME}"
+
+  # Enable "Quit Finder" menu item.
+  QuitMenuItem: true
+
+  # Finder > Preferences > Show these items on the desktop > Hard disks.
+  ShowHardDrivesOnDesktop: false
+
+  # Finder > View > Show Path Bar.
+  ShowPathbar: true
+
+com.apple.SoftwareUpdate:
+  # System Preferences > Software Update > Advanced... > Automatically check for
+  # updates.
+  AutomaticCheckEnabled: true
+
+  # System Preferences > Software Update > Advanced... > Download new updates
+  # when available.
+  AutomaticDownload: true
+
