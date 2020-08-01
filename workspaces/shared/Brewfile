@@ -57,7 +57,7 @@ mas "AutoMute", id: 1118136179
 mas "Cyberduck", id: 409222199
 mas "Fantastical", id: 975937182
 mas "Magnet", id: 441258766
-mas "NordVPN IKE - Unlimited VPN", id:1116599239
+mas "NordVPN IKE - Unlimited VPN", id: 1116599239
 mas "Pastebot", id: 1179623856
 mas "PiPifier", id: 1160374471
 mas "Slack", id: 803453959
@@ -65,4 +65,4 @@ mas "The Unarchiver", id: 425424353
 mas "Todoist", id: 585829637
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
-mas "1Password 7 - Password Manager", 1333542190
+mas "1Password 7 - Password Manager", id: 1333542190
